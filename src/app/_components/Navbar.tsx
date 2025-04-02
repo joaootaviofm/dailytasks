@@ -5,7 +5,7 @@ import { TiArrowSortedDown } from "react-icons/ti";
 export default function Navbar() {
 
   const navItems = ["About", "Home", "My Tasks"];
-  
+
   return (
     <nav className="flex items-center justify-between text-[#D1D1D1] bg-white/20 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
       <div>
@@ -20,9 +20,9 @@ export default function Navbar() {
               href="#"
               className="flex items-center gap-[4px] hover:text-white hover:scale-105 duration-300"
             >
-              {item == "My Habits" ? (
+              {item == "My Tasks" ? (
                 <>
-                  {item} <TiArrowSortedDown />{" "}
+                  {item} <TiArrowSortedDown/>
                 </>
               ) : (
                 item
