@@ -3,7 +3,9 @@ import { IoMdAdd } from "react-icons/io";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 export default function Navbar() {
-  const navItems = ["About", "Home", "My Habits"];
+
+  const navItems = ["About", "Home", "My Tasks"];
+  
   return (
     <nav className="flex items-center justify-between text-[#D1D1D1] bg-white/20 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
       <div>
@@ -30,7 +32,7 @@ export default function Navbar() {
         ))}
       </ul>
       <button className="cursor-pointer bg-white/30 backdrop-blur-md px-5 py-2 rounded-lg border flex items-center gap-[5px] hover:scale-105 text-white duration-300">
-        Add Habit
+        Add Task
         <span className="text-lg">
           <IoMdAdd />
         </span>
