@@ -3,7 +3,6 @@ import { IoMdAdd } from "react-icons/io";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 export default function Navbar() {
-
   const navItems = ["About", "Home", "My Tasks"];
 
   return (
@@ -22,7 +21,7 @@ export default function Navbar() {
             >
               {item == "My Tasks" ? (
                 <>
-                  {item} <TiArrowSortedDown/>
+                  {item} <TiArrowSortedDown />
                 </>
               ) : (
                 item
@@ -31,7 +30,7 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-      <button className="cursor-pointer bg-white/30 backdrop-blur-md px-5 py-2 rounded-lg border flex items-center gap-[5px] hover:scale-105 text-white duration-300">
+      <button className="cursor-pointer bg-gradient-to-br from-[#0017ff] to-[#a200ff] hover:from-[#a200ff] hover:to-[#0017ff] backdrop-blur-md px-5 py-2 rounded-lg flex items-center gap-[5px] hover:scale-110 text-white duration-300 transition-all">
         Add Task
         <span className="text-lg">
           <IoMdAdd />
