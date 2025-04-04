@@ -30,7 +30,7 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-      <button className="cursor-pointer bg-gradient-to-br from-[#0017ff] to-[#a200ff] hover:from-[#a200ff] hover:to-[#0017ff] backdrop-blur-md px-5 py-2 rounded-lg flex items-center gap-[5px] hover:scale-110 text-white duration-300 transition-all">
+      <button className="cursor-pointer border bg-black/20 backdrop-blur-md px-5 py-2 rounded-lg flex items-center gap-[5px] hover:scale-110 text-white duration-300 transition-all">
         Add Task
         <span className="text-lg">
           <IoMdAdd />
