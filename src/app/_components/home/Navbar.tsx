@@ -6,7 +6,7 @@ export default function Navbar() {
   const navItems = ["About", "Home", "My Tasks"];
 
   return (
-    <nav className="z-1 fixed w-full flex items-center justify-between text-[#D1D1D1] bg-white/10 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
+    <nav className="z-1 fixed w-full flex items-center justify-between text-[#D1D1D1] bg-white/5 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
       <div>
         <h1 className="cursor-default hover:scale-105 hover:text-white duration-300 text-[24px]">
           Taskly
@@ -16,7 +16,7 @@ export default function Navbar() {
         {navItems.map((item, index) => (
           <li key={index}>
             <a
-              href="#"
+              href={item == "Home" ? "/" : item == "My Tasks" ? "/tasks" : ""}
               className="flex items-center gap-[4px] hover:text-white hover:scale-105 duration-300"
             >
               {item == "My Tasks" ? (
@@ -30,12 +30,12 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-      <button className="cursor-pointer border bg-black/20 backdrop-blur-md px-5 py-2 rounded-lg flex items-center gap-[5px] hover:scale-110 text-white duration-300 transition-all">
+      <a href="/create" className="cursor-pointer border bg-black/20 backdrop-blur-md px-5 py-2 rounded-lg flex items-center gap-[5px] hover:scale-110 text-white duration-300 transition-all">
         Add Task
         <span className="text-lg">
           <IoMdAdd />
         </span>
-      </button>
+      </a>
     </nav>
   );
 }
