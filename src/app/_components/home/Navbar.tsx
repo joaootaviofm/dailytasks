@@ -6,7 +6,7 @@ export default function Navbar() {
   const navItems = ["About", "Home", "My Tasks"];
 
   return (
-    <nav className="flex items-center justify-between text-[#D1D1D1] bg-white/20 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
+    <nav className="z-1 fixed w-full flex items-center justify-between text-[#D1D1D1] bg-white/10 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
       <div>
         <h1 className="cursor-default hover:scale-105 hover:text-white duration-300 text-[24px]">
           Taskly

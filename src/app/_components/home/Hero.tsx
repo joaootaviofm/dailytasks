@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="px-[100px] mt-[100px] flex flex-col justify-center items-center gap-[20px] text-white">
+    <div className="px-[100px] mt-[200px] flex flex-col justify-center items-center gap-[20px] text-white">
       <h1 className="text-6xl font-bold">
         Double your{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#9C83FF] to-[#FF9051]">
@@ -38,6 +38,11 @@ export default function Hero() {
           compound into massive results. Consistency is the secret to growth,
           and tracking is the first step.
         </p>
+        <div className="w-full mt-[20px]">
+          <button className="font-bold text-lg tracking-[2px] hover:scale-105 cursor-pointer border border-black backdrop-blur-md shadow-2xl hover:shadow-purple-100 duration-400 w-full py-2 bg-gradient-to-l from-[#9C83FF] to-[#80080] rounded-lg">
+            Start tracking
+          </button>
+        </div>
       </div>
     </div>
   );
