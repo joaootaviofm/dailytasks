@@ -38,12 +38,11 @@ export default function Hero() {
           compound into massive results. Consistency is the secret to growth,
           and tracking is the first step.
         </p>
-        <div className="w-full mt-[20px]">
-          <button className="font-bold text-lg tracking-[2px] hover:scale-105 cursor-pointer border border-black backdrop-blur-md shadow-2xl hover:shadow-purple-100 duration-400 w-full py-2 bg-gradient-to-l from-[#9C83FF] to-[#80080] rounded-lg">
-            Start tracking
-          </button>
+        <div className="mt-[20px] w-full flex justify-center items-center">
+          <a href="/create" className="font-bold tracking-[2px] text-lg border-black border hover:shadow-purple-100 shadow-2xl hover:scale-105 duration-400 w-full py-2 bg-gradient-to-l from-[#9C83FF] to-[#80080] rounded-lg">Start tracking</a>
         </div>
       </div>
     </div>
   );
 }
+
