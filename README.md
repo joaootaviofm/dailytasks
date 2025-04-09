@@ -13,20 +13,15 @@ The mission? Help you win your day — one task at a time.
 
 ---
 
-## 🧪 In Development
+## 🧪Features in Development
 
 Taskly is always growing. It's a living project built for people who want to grow too.  
 Here’s what’s on the horizon:
 
-- 🧩 Google Calendar integration  
-- 🧠 Weekly AI-generated productivity insights  
-- 🗣️ Voice commands to create tasks  
-- 🎯 Gamification & focus streaks
-
----
-
-## 🔥 Features
-
+- 🧩 **Google Calendar integration**
+- 🧠 **Weekly AI-generated productivity insights**
+- 🗣️ **Voice commands to create tasks**
+- 🎯 **Gamification & focus streaks**
 - ✅ **Create & complete daily tasks** with visual feedback  
 - 🧠 **Smart priority system** that highlights what actually matters  
 - 📊 **Performance dashboard** to track consistency over time  
