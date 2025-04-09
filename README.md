@@ -43,7 +43,7 @@ Clone the repo:
 ```bash
 git clone https://github.com/joaootaviofm/dailytasks.git
 
-cd taskly
+cd dailytasks
 
 npm install
 # or
