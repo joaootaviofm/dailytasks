@@ -23,7 +23,7 @@ export default function TaskHero() {
         taskAdded
       );
       setTasks((prev) => [...prev, response.data])
-      
+      setNewTask("");
       console.log(response.data);
     } catch (error) {
       console.error("Error adding task.", error);
