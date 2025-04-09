@@ -3,7 +3,7 @@ import { IoMdAdd } from "react-icons/io";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 export default function Navbar() {
-  const navItems = ["About", "Home", "My Tasks"];
+  const navItems = ["Home", "My Tasks"];
 
   return (
     <nav className="z-1 fixed w-full flex items-center justify-between text-[#D1D1D1] bg-white/5 backdrop-blur-lgs py-[30px] px-[30px] drop-shadow-lg border-b border-b-white/10">
