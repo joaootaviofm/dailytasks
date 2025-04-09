@@ -18,6 +18,10 @@ export default function TaskHero() {
     };
 
     try {
+      if(taskAdded.task == ""){
+        console.error("Can't add null task!")
+        return
+      }
       const response = await axios.post(
         "http://localhost:8080/tasks",
         taskAdded
