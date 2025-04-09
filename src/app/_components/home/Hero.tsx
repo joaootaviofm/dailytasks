@@ -39,7 +39,7 @@ export default function Hero() {
           and tracking is the first step.
         </p>
         <div className="mt-[20px] w-full flex justify-center items-center">
-          <a href="/create" className="font-bold tracking-[2px] text-lg border-black border hover:shadow-purple-100 shadow-2xl hover:scale-105 duration-400 w-full py-2 bg-gradient-to-l from-[#9C83FF] to-[#80080] rounded-lg">Start tracking</a>
+          <a href="/tasks" className="font-bold tracking-[2px] text-lg border-black border hover:shadow-purple-100 shadow-2xl hover:scale-105 duration-400 w-full py-2 bg-gradient-to-l from-[#9C83FF] to-[#80080] rounded-lg">Start tracking</a>
         </div>
       </div>
     </div>
